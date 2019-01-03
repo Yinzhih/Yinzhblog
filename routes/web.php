@@ -10,15 +10,20 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+//
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+//
+//Route::get('/home', function () {
+//    return view('home.index');
+//});
 
-Route::get('/', function () {
-    return view('welcome');
+
+Route::namespace('Home')->group(function (){
+    Route::get('/','IndexController@index');
+    Route::get('/article/{id}','IndexController@article');
 });
-
-Route::get('/home', function () {
-    return view('home.index');
-});
-
 
 
 // 后台登录页面
