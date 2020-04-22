@@ -42,12 +42,12 @@
                 <li class="b-nav-cname ">
                     <a href="http://localhost:8000/category/1">php</a>
                 </li>
-                <li class="b-nav-cname ">
+                <!-- <li class="b-nav-cname ">
                     <a href="http://localhost:8000/chat">随言碎语</a>
                 </li>
                 <li class="b-nav-cname ">
                     <a href="http://localhost:8000/git">开源项目</a>
-                </li>
+                </li> -->
             </ul>
             <ul id="b-login-word" class="nav navbar-nav navbar-right">
                 <li class="b-nav-cname b-nav-login">
@@ -74,7 +74,7 @@
                     <input class="b-search-submit" type="submit" value="全站搜索">
                 </form>
             </div>
-            <div class="b-qun">
+            <!-- <div class="b-qun">
                 <h4 class="b-title">加入组织</h4>
                 <ul class="b-all-tname">
                     <li class="b-qun-or-code">
@@ -95,7 +95,7 @@
                         </p>
                     </li>
                 </ul>
-            </div>
+            </div> -->
             <div class="b-tags">
                 <h4 class="b-title">热门啊标签</h4>
                 <ul class="b-all-tname">
@@ -127,13 +127,13 @@
                     </ul>
                 </div>
             </div>
-            <div class="b-link">
+            <!-- <div class="b-link">
                 <h4 class="b-title">友情链接</h4>
                 <p>
                     <a class="b-link-a" href="https://baijunyao.com/" target="_blank"><span class="fa fa-link b-black"></span> Yinzh博客</a>
                     <a class="b-link-a" href="http://localhost:8000/site"><span class="fa fa-link b-black"></span> 更多 </a>
                 </p>
-            </div>
+            </div> -->
         </div>
         <!-- 通用右部区域结束 -->
     </div>
@@ -148,18 +148,17 @@
             <dl class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <dt>权益</dt>
                 <dd>许可协议：<a href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh">CC BY-NC 4.0</a></dd>
-                <dd>版权所有：© 2014-2018 localhost</dd>
-                <dd>网站备案：豫ICP备14009546号-3</dd>
-                <dd>联系邮箱：<a href="mailto:baijunyao@baijunyao.com">baijunyao@baijunyao.com</a></dd>
+                <dd>版权所有：© 2020-2023 localhost</dd>
+                <dd>网站备案：渝ICP备20003611号</dd>
+                <dd>联系邮箱：<a href="mailto:13677624796@163.com">13677624796@163.com</a></dd>
             </dl>
 
             <dl class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <dt>架构</dt>
-                <dd>项目名称：<a rel="nofollow" href="https://github.com/baijunyao/laravel-bjyblog" target="_blank">laravel-bjyblog</a></dd>
-                <dd>版本分支：v5.5.9.0-master</dd>
-                <dd>项目作者：<a href="https://baijunyao.com/">Yinzh</a></dd>
-                <dd>主题名称：<a rel="nofollow" href="https://github.com/baijunyao/blog-theme-blueberry">blog-theme-blueberry</a></dd>
-                <dd>主题作者：<a href="https://baijunyao.com/">Yinzh</a></dd>
+                <dd>项目名称：<a rel="nofollow" href="https://github.com/Yinzhih/Yinzhblog" target="_blank">laravel-YinzhBlog</a></dd>
+                <dd>版本分支：v1.0.0.0-master</dd>
+                <dd>项目作者：<a href="https://Yinzh.top/">Yinzh</a></dd>
+                <dd>主题作者：<a href="https://Yinzh.top/">Yinzh</a></dd>
             </dl>
 
             <dl class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -204,9 +203,7 @@
 <!-- 登录模态框结束 -->
 
 <script src="js/app.js"></script>
-<!-- 百度统计开始 -->
-{!! htmlspecialchars_decode(config('bjyblog.statistics')) !!}
-<!-- 百度统计结束 -->
+
 @yield('js')
 </body>
 </html>
